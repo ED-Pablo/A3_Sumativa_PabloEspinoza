@@ -1,0 +1,29 @@
+ion-toolbar{
+    --background: #3498db;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  
+    ion-title{
+      color:  #fff; 
+      font-size: 1.5em;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  
+    ion-title:hover {
+      text-decoration: underline;
+    }
+  
+    &:hover {
+      background-color: #2c3e50;
+      transform: scale(1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+  
+    &:active {
+      --background: #2980b9;
+    }
+  }
